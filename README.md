@@ -1,20 +1,39 @@
-# Product Description Generator
+# AI Product Description Generator
 
-![Product Description Generator Demo](/assets/Product%20Description%20Generator.gif)
+![Project Banner](https://via.placeholder.com/1200x400/3b82f6/ffffff?text=AI+Product+Description+Generator)
 
-This is an ecommerce demo that allows you to upload a product image and get detailed descriptions for it in different languages. Powered by [Together AI](https://togetherai.link) and [Llama 3.2 Vision](https://togetherai.link/llama3.2vision/?utm_source=example-app&utm_medium=pdg&utm_campaign=product-description-generator).
+An AI-powered tool that generates multilingual product descriptions from images using advanced vision-language models.
 
-## Tech stack
+## ✨ Features
 
-- [Llama 3.2 Vision](https://togetherai.link/llama3.2vision/?utm_source=example-app&utm_medium=pdg&utm_campaign=product-description-generator) from Meta for the Vision model
-- [Together AI](https://togetherai.link) for LLM inference
-- [S3](https://aws.amazon.com/s3/) for image storage
-- Next.js app router with Tailwind
-- Plausible for website analytics
+- **Image Analysis**: Upload product images for AI interpretation
+- 
+- **Multilingual Support**: Generate descriptions in 9+ languages
+- 
+- **Customizable Output**: Control description length (short/medium/long)
+- 
+- **Model Selection**: Choose between different AI models
+- 
+- **Responsive UI**: Works on desktop and mobile devices
+- 
+- **Colorful Interface**: Dynamic, animated color themes
 
-## Cloning & running
+## 🛠️ Technologies Used
 
-1. Clone the repo: `git clone https://github.com/Nutlope/description-generator`
-2. Create a `.env` file and add your [Together AI API key](https://togetherai.link/llama3.2vision/?utm_source=example-app&utm_medium=napkins&utm_campaign=napkins-app-signup): `TOGETHER_API_KEY=`
-3. Create an S3 bucket and add the credentials to your `.env` file. Follow [this guide](https://next-s3-upload.codingvalue.com/setup) to set them up. All required values are in the `.env.example` file.
-4. Run `npm install` and `npm run dev` to install dependencies and run locally
+- **Frontend**: Next.js 14, Tailwind CSS, Shadcn/ui
+- 
+- **AI Models**: Llama 3.2 Vision (11B & 90B variants)
+- 
+- **Storage**: AWS S3 (via next-s3-upload)
+- 
+- **Animation**: CSS transitions and keyframes
+- 
+- **Icons**: Lucide React
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js v18+
+- npm or yarn
+- AWS account (for S3 uploads)
